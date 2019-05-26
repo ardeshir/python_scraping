@@ -13,3 +13,7 @@ print(" ")
 bs = BeautifulSoup(html.read(), 'html.parser')
 
 print(bs.h1 ) 
+print(".....")
+print(bs.html.body.h1)
+print(bs.body.h1)
+print(bs.html.h1)
